@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+    <title>Detetive</title>
+</head>
+<body>
+    <header>
+        <h1>Um futuro brilhante</h1>
+        <p>Um crime aconteceu e você deve descobrir quem são as personagens, quem é a vitima, de que forma</p>
+        <p>ela morreu, por qual motivo, onde o corpo esta e quem é o assassino</p>
+        <p>Digite uma palavra no campo de pesquisa e o jogo dará todos os três fragmentos que estiverem relacionados com ela</p>
+        <p>Para poder descobrir qual é a próxima palavra, preste atenção aos nomes, adjetivos, objetos e termos citados</p>
+
+    </header>
+    <main>
+      <section>
+        <input type="text" placeholder="Digite a palavra AMANHÃ" 
+        id="campo-pesquisa">
+        <button onclick="pesquisar()">Pesquisar</button>
+      </section>
+      <section class="resultados-pesquisa"
+      id="resultados-pesquisa">
+      </section>
+    </main>
+    <footer>
+        <p>2024 - Uma adaptação interativa do conto homônimo de Ruth Rendell e inspirado pelo jogo Her Story de Sam Barlow</p>
+        <p>Tradução de Leila de Souza Mendes Pereira, presente na coletânea Uma Agulha para o Diabo e Outras Histórias, editora L&PM</p>
+        <p>Alguns trechos foram alterados para encaixar na proposta, que tem como único fim ser educativo</p>
+    </footer>
+    <script src="dados.js"></script>
+    <script src="app.js"> </script>
+</body>
+</html>

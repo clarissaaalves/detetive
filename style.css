@@ -14,7 +14,7 @@ body{
 }
 /* Estiliza os títulos h1 */
 h1{
-    font-size: 3.5rem; /* Tamanho da fonte */
+    font-size: 2.5rem; /* Tamanho da fonte */
     color: #403A3A; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
     letter-spacing: 0.2rem; /* Espaçamento entre letras */
